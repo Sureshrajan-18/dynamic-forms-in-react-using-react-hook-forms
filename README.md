@@ -2,7 +2,7 @@
 
 # Getting Started with Vite + React
 
-This project has been migrated from Create React App to [Vite](https://vitejs.dev/) and uses the latest React 19.
+This project is built with [Vite](https://vitejs.dev/) and uses the latest React 19.
 
 ## Prerequisites
 

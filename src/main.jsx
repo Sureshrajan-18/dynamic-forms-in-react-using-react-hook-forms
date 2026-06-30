@@ -1,17 +1,16 @@
-// src/main.jsx
-import React from "react";
-import { createRoot } from "react-dom/client";  // ✅ React 19 API
-import "./index.css";
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import App from "./App"; 
+import App from "./App";
 import Dynamic from "./Pages/Dynamic";
-import Normal from "./Pages/Normal"; 
+import Normal from "./Pages/Normal";
+import "./index.css";
 
 const container = document.getElementById("root");
 const root = createRoot(container);
 
 root.render(
-  <React.StrictMode>
+  <StrictMode>
     <BrowserRouter>
       <Routes>
         <Route path="/">
@@ -21,5 +20,5 @@ root.render(
         </Route>
       </Routes>
     </BrowserRouter>
-  </React.StrictMode>
+  </StrictMode>
 );
