@@ -100,14 +100,12 @@ const Normal = () => {
             defaultValue=""
             render={({ field }) => (
               <div>
-                <br />
                 <RadioButtonComponent
                   label="Male"
                   value="male"
                   onChange={(value) => field.onChange(value)}
                   checked={field.value === "male"}
                 />
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <RadioButtonComponent
                   label="Female"
                   value="female"

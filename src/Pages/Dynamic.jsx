@@ -36,7 +36,7 @@ const dynamicForm = {
   gender: {
     label: "Gender",
     type: "radio",
-    options: ["male", "female"],
+    options: ["Male", "Female"],
     defaultValue: "",
     rules: {
       required: true,
@@ -85,6 +85,7 @@ const Input = ({ value, onChange, type, ...rest }) => {
           checked={value === e}
         />
       ));
+
     case "dropdown":
       return (
         <DropDownListComponent

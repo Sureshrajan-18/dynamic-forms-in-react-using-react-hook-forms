@@ -1,7 +1,7 @@
 import React from "react";
 import { ButtonComponent } from "@syncfusion/ej2-react-buttons";
-import "../node_modules/@syncfusion/ej2-base/styles/material.css";
-import "../node_modules/@syncfusion/ej2-buttons/styles/material.css";
+import "@syncfusion/ej2-base/styles/material.css";
+import "@syncfusion/ej2-buttons/styles/material.css";
 import "./App.css";
 import { Link } from "react-router-dom";
 //
